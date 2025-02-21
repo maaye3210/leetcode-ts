@@ -21,4 +21,6 @@ const getMaxSub = (startIndex: number): number => {
     return input[startIndex]
 }
 
+export default getMaxSub;
+
 console.log(getMaxSub(0), Math.max(...Object.values(map)))
