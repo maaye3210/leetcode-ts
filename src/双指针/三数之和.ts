@@ -1,8 +1,7 @@
 /**
- * @file 练功房，vscode 中运行以此文件为入口
+ * 本质是将暴力解法中的一个双层循环优化成了双指针，此解法同样适用于N数之和 
  */
-
-function fun(originArray: number[], target: number) {
+export function fun(originArray: number[], target: number) {
     const array = originArray.sort((a, b) => a - b);
     const twoSum = (startIndex: number, target: number) => {
         const res: number[][] = [];

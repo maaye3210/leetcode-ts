@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Run TypeScript",
+            "name": "调试练功房",
             "program": "${workspaceFolder}/src/index.ts",
             "preLaunchTask": "tsc: 构建 - tsconfig.json",
             "outFiles": [
